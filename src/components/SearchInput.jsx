@@ -20,7 +20,6 @@ const SearchInput = () => {
     // or
     // setQuery({...query,type})
   };
-  console.log(query);
   return (
     <div className="mt-8 w-full">
       <div>

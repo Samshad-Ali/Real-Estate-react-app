@@ -10,3 +10,11 @@ body{
     list-style: none;
     box-sizing: border-box;
 }
+
+.list{
+    overflow-y: scroll;
+}
+
+.list::-webkit-scrollbar{
+    display: none;
+}

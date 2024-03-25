@@ -68,7 +68,7 @@ const Filter = () => {
             placeholder="any"
           />
         </div>{" "}
-        <button className="text-white translate-y-2 self-center align-middle  flex justify-center hover:bg-yellow-600 rounded-md  items-center  p-2 px-6 bg-yellow-500">
+        <button className="text-white translate-y-2 self-center align-middle  flex justify-center transition-all hover:bg-yellow-600 rounded-md  items-center  p-2 px-6 bg-yellow-500">
           <FiSearch size={21} />{" "}
         </button>
       </div>

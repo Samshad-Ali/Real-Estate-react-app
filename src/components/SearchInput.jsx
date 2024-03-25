@@ -64,7 +64,7 @@ const SearchInput = () => {
             max={100000000}
           />
         </form>
-        <button className="text-white  flex justify-center  items-center sm:block  p-2 sm:p-0 sm:px-6 bg-yellow-500">
+        <button className="text-white cursor-pointer hover:bg-yellow-600  flex justify-center  items-center sm:block  p-2 sm:p-0 sm:px-6 bg-yellow-500 transition-all">
           <FiSearch size={25} />
         </button>
       </div>

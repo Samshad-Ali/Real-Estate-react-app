@@ -5,7 +5,7 @@ import SearchInput from "../components/SearchInput";
 const Homepage = () => {
   return (
     <div className="flex w-full min-h-[calc(100vh-64px)] sm:h-[calc(100vh-64px)]  md:bg-none bg-bg-image  bg-no-repeat bg-cover">
-      <div className="w-full  bg-white/85 bg-opacity-30 md:bg-gray-100 md:w-2/3 flex flex-col gap-4 p-4 justify-center items-center">
+      <div className="w-full  bg-white/40 bg-opacity-30 md:bg-gray-100 md:w-2/3 flex flex-col gap-4 p-4 justify-center items-center">
         <div className="flex flex-col gap-2  md:pr-24 ">
           <h1 className="font-extrabold text-2xl lg:text-4xl">
             Your Gateway to Discovering Dream Place

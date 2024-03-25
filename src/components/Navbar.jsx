@@ -32,7 +32,7 @@ const Navbar = () => {
       </div>
       <span
       onClick={()=>{setIsPhoneNav(!isPhoneNave)} }
-      className="sm:hidden z-50 block bg-black text-white p-1 rounded-md">
+      className="sm:hidden z-20 block bg-black text-white p-1 rounded-md">
         <FaBarsStaggered />
       </span>
       <div className="hidden gap-8 text-sm sm:flex ">
@@ -42,7 +42,7 @@ const Navbar = () => {
         </button>
       </div>
     </nav>
-      <Phonenav isPhoneNave={isPhoneNave} />
+      <Phonenav setIsPhoneNav={setIsPhoneNav} isPhoneNave={isPhoneNave} />
     </>
 
   );

@@ -30,20 +30,20 @@ const Card = ({ data }) => {
         </span>
         <div className="flex justify-between items-center">
           <div className="flex gap-2 items-center">
-            <div className="flex gap-1 bg-white rounded-md  px-2 p-1 items-center">
+            <div className="flex gap-1 bg-gray-100 rounded-md  px-2 p-1 items-center">
               <IoBedOutline size={18} />
               <span className="text-xs lowercase">{bedroom} Bedroom</span>
             </div>
-            <div className="flex gap-1 bg-white rounded-md  px-2 p-1 items-center">
+            <div className="flex gap-1 bg-gray-100 rounded-md  px-2 p-1 items-center">
               <LiaBathSolid size={18} />
               <span className="text-xs lowercase">{bathroom} Bathroom</span>
             </div>
           </div>
           <div className="flex gap-4 items-center">
-            <p className="p-1 rounded-md border rotate-180 bg-white">
+            <p className="p-1 cursor-pointer rounded-md border rotate-180 bg-white">
               <TbBadge />
             </p>
-            <p className="p-1 rounded-md border bg-white">
+            <p className="p-1 cursor-pointer rounded-md border bg-white">
               <HiOutlineChatBubbleBottomCenterText />
             </p>
           </div>
